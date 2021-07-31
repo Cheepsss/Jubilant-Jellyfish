@@ -109,7 +109,7 @@ class Map:
         self.space.add_object(90, 27, TARGET_W, TARGET_H, type="target")
         self.targets.append(target1)
         target1 = Target(0, 24, self.terminal)
-        self.space.add_object(70, 21, TARGET_W, TARGET_H, type="target")
+        self.space.add_object(0, 24, TARGET_W, TARGET_H, type="target")
         self.targets.append(target1)
 
         self.time_left = 120
