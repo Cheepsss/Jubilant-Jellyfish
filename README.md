@@ -62,22 +62,13 @@ We had to face some serious challenges during this competition that I wanted to 
 
 ## Problems
 
-### You cannot pass Level 2
-
-```
-        target1 = Target(0, 24, self.terminal)
-        self.space.add_object(70, 21, TARGET_W, TARGET_H, type="target")
-```
-
-These are the lines 111-112 from `maps.py`. Why does this matter? `Target` and `Space.add_object` both accept `left` and `top` as their first arguments, and because of this, target1 is not displayed where it actually is. This error only got noticed hours after submission, so we couldn't fix it. It will be changed as soon as the jam is closed, or you can change the code to place them both at (0, 24).
-
 ### Flickering
 
-The game is still flickering hard. We couldn't find a solution to that yet. Don't hesitate to alert us if you know something that might fix it.
+The game is still flickering hard. We couldn't find a solution to that yet. Don't hesitate to tell us if you know something that might fix it.
 
 ### Style
 
-We had no time left in the end to document our code and make it comply with `flake8`. This will soon be fixed after the closing of the Code Jam.
+We had no time left in the end to document our code and make it comply with `flake8`. This will soon be fixed.
 
 ## Contact Us
 
