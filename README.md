@@ -73,6 +73,7 @@ We had no time left in the end to document our code and make it comply with `fla
 ## Contact Us
 
 Should you have any questions or recommendations, feel free to contact us at:
-- Daniel Buza (@danib-prog) - 9buza.dani@gmail.com
 - Mihaela Grajdan (@Cheepsss)- mihaelagrajdan3102003@gmail.com
+- Daniel Buza (@danib-prog) - 9buza.dani@gmail.com
+
 
